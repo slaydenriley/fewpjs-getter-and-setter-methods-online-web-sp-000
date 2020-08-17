@@ -4,6 +4,6 @@ class Circle {
   }
 
   get diameter(radius) {
-    this.radius * Math.PI;
+    return this.radius * Math.PI;
   }
 }
